@@ -1,4 +1,4 @@
-# NH Highway Delights - Travel Experience Booking Platform
+# Highway Delights - Travel Experience Booking Platform
 
 ## Overview
 A full-stack web application for booking travel experiences built with Next.js frontend and Node.js backend. Users can browse experiences, select dates/times, and complete bookings with encrypted data transmission.
