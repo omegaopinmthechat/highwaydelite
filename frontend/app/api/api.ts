@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Experience, BookingData, Booking } from '../../components/types';
 
-const API_BASE_URL = 'http://localhost:5500/api';
+const API_BASE_URL = `${process.env.NEXT_PUBLIC_API_URL}/api`;
 
 const api = axios.create({
   baseURL: API_BASE_URL,
