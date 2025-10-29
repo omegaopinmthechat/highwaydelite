@@ -11,7 +11,13 @@ const PORT1 = process.env.PORT || 5500;
 // Connect to MongoDB
 connectDB();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "*",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 app.use('/api/experiences', experienceRoutes);
